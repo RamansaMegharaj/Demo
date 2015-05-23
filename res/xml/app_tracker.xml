@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+      <resources>
+          <integer name="ga_sessionTimeout">300</integer>
+
+          <!-- Enable automatic Activity measurement -->
+          <bool name="ga_autoActivityTracking">true</bool>
+          <!-- Percentage of events to include in reports -->
+<string name="ga_sampleFrequency">100.0</string>
+ 
+<!-- catch and report uncaught exceptions from the app -->
+<bool name="ga_reportUncaughtExceptions">true</bool>
+
+<!-- How long a session exists before giving up -->
+<integer name="ga_sessionTimeout">-1</integer>
+
+          <!-- The screen names that will appear in reports -->
+          <screenName name="com.shareapp.MainActivity">
+              MainActivity
+          </screenName>
+          <screenName name="com.test.SecondActivity">
+              SecondActivity
+          </screenName>
+          <!--  The following value should be replaced with correct property id. -->
+          <string name="ga_trackingId">UA-63207586-2</string>
+      </resources>
